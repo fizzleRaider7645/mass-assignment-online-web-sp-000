@@ -1,6 +1,6 @@
 class Person
   def initialize(*attributes)
-    attributes.each {|key, value| self.send(("#{key}="), value)}
+    p attributes.each {|key, value| self.send(("#{key}="), value)}
     end
   end
 end
