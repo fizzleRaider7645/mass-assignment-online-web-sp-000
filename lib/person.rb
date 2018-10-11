@@ -1,6 +1,6 @@
 class Person
   attr_accessor: :name, :birthday, :hair_color, :eye_color,
-  attr_accessor: :hair_color, :eye_color,
+  attr_accessor: 
   attr_accessor:
   
   def initialize(*attributes)
