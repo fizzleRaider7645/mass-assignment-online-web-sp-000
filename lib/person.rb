@@ -1,4 +1,4 @@
 class Person
-  def initialize(attributes)
+  def initialize(name:,)
   end
 end
