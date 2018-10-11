@@ -1,5 +1,5 @@
 class Person
   def initialize(*attributes)
-    args.each do |arg|
+    attributes.each do |arg|
   end
 end
